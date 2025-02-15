@@ -1,9 +1,15 @@
-* 业务理解
-  * [服装品牌代加工背后的商业运作](docs/10.服装品牌代加工背后的商业运作.md)
-  * [卓越ODM服装厂商供应链解决方案](docs/20.卓越ODM服装厂商供应链解决方案.md)
+* 学科内容
+  * [数学](docs/subjects/mathematics/培养孩子数学思维的步骤.md)
+  * [英语](docs/subjects/english/)
+  * [科学](docs/subjects/science/)
+  * [计算机](docs/subjects/computer/)
 
-* 核心模块
-  * [1.0设计与TechPack协同](docs/40-100.设计与TechPack协同细化.md)
-  * [1.1从需求产生到TechPack确认](docs/40-120.从需求产生到TechPack确认.md)
-  * [2.0生产计划与排程协同](docs/400-200.生产计划与排程协同.md)
-  * [2.1生产计划与排程流程](docs/400-220.生产计划与排程协同.md)
+* 成长记录
+  * [学习日记](docs/growth-records/learning-diary/)
+  * [观察记录](docs/growth-records/observations/)
+
+* 教育资源
+  * [推荐书籍](docs/resources/books/)
+  * [在线资源](docs/resources/websites/)
+
+
