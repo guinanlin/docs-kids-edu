@@ -11,7 +11,7 @@
 
 ## 项目结构
 
-```
+```tree
 📦 docs-kids-edu
  ┣ 📂 docs
  ┃ ┣ 📂 subjects

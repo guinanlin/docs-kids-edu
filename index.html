@@ -33,6 +33,44 @@
         padding: 10px;
         border-radius: 5px;
       }
+
+      /* 美化目录结构的显示 */
+      .markdown-section pre {
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        padding: 1em;
+      }
+
+      /* 目录结构中的文件夹和文件图标样式 */
+      .markdown-section code {
+        font-family: 'Consolas', monospace;
+        color: #333;
+        background-color: transparent;
+        padding: 0;
+      }
+
+      /* 目录结构的缩进和行距 */
+      .markdown-section pre > code {
+        line-height: 1.5;
+      }
+
+      /* 注释文字样式 */
+      .markdown-section pre > code .comment {
+        color: #6a737d;
+      }
+
+      /* 调整整体宽度 */
+      .markdown-section {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      /* 优化树形结构的显示 */
+      .markdown-section pre.tree {
+        white-space: pre;
+        font-family: 'Consolas', monospace;
+        background-color: #f8f8f8;
+      }
     </style>
 </head>
 
@@ -72,14 +110,13 @@
                 hideOtherSidebarContent: false,
                 namespace: '儿童教育',
             },
-            // 添加 markdown 插件配置
+            // 开启 markdown 特性
             markdown: {
+                smartypants: true,
                 renderer: {
                     code: function(code, lang) {
-                        if (lang === "mermaid") {
-                            return (
-                                '<div class="mermaid">' + code + "</div>"
-                            );
+                        if (lang === 'tree') {
+                            return '<pre class="tree">' + code + '</pre>';
                         }
                         return this.origin.code.apply(this, arguments);
                     }
