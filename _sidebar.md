@@ -1,8 +1,7 @@
 * 学科内容
-  * [数学](docs/subjects/mathematics/)
-  * [数学](docs/subjects/mathematics/培养孩子数学思维的步骤.md)
-  * [数学](docs/subjects/mathematics/基础数学概念的建立.md)
-
+  * 数学
+    * [培养孩子数学思维的步骤](docs/subjects/mathematics/培养孩子数学思维的步骤.md)
+    * [基础数学概念的建立](docs/subjects/mathematics/基础数学概念的建立.md)
   * [英语](docs/subjects/english/)
   * [科学](docs/subjects/science/)
   * [计算机](docs/subjects/computer/)
